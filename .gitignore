@@ -1,0 +1,75 @@
+# This .gitignore is tailored for Unity 2D projects
+# Based on common guidelines for Unity projects.
+
+# Ignore the auto-generated folders and files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Ignore asset store metadata
+[Aa]ssets/**/*.meta
+
+# Ignore Visual Studio / MonoDevelop project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore crash reports
+*.stacktrace
+
+# Ignore Unity cache files
+/[Cc]ache/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore 2D-specific resources (if used)
+# For example, temporary sprite atlas or PSD working files
+*.spriteatlas
+*.psb
+*.kra
+*.xcf
+
+# Ignore generated LightingData files
+[Ll]ightmap[Ss]napshot
+LightingData.asset
+
+# Ignore temporary Scene files
+*.tmp
+*.bak
+*.swp
+*.tmp.asset
+
+# Ignore Collaborate-generated files
+/[Cc]ollab/
+
+# Ignore JetBrains Rider project files
+.idea/
+*.idea/*
+
+# Uncomment if you use custom plugins or third-party tools (add your paths)
+# /Assets/Plugins/
+# /Assets/ThirdParty/
+
+# Include README.md and other documentation files
+!.gitignore
+!README.md
+!LICENSE
+
+# End of file
